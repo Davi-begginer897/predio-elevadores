@@ -3,10 +3,12 @@
 Simula um prédio de 15 andares com elevadores de tipos diferentes. Cada chamado é atendido pelo elevador mais próximo.
 
 ## Conceitos praticados
-- Classes e objetos
+- Classes, objetos, atributos e métodos
 - Encapsulamento (andar privado, com getter e setter)
 - Herança (elevadores comum, de carga, social e panorâmico)
 - Polimorfismo (cada tipo responde ao mesmo método do seu jeito)
+- Composição (o prédio gerencia uma lista de elevadores)
+- Validação de entradas e casos limite
 
 ## Como executar
 python predio_elevadores.py
